@@ -1,12 +1,47 @@
+
+body{
+  font-family: "Montserrat" arial;
+}
+
 #title{
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid{
   padding: 3% 15%;
 }
+
 h1{
-  font-family: "Montserrat-Black";
-  font-size: 3rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
   line-height: 1.5;
+}
+/* Navbar  There has to be some issue between this and index*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link{
+  font-size: 1.2rem;
+}
+/* download button */
+.dnld-btn{
+  margin: 5% 3% 5%;
+}
+
+/* titlebar image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
 }
