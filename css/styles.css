@@ -23,6 +23,16 @@ p{
 .container-fluid{
   padding: 7% 15%;
 }
+/*  */
+/* background sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
 
 /* Navbar */
 .navbar {
@@ -47,13 +57,9 @@ p{
 }
 
 /* tile section */
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
 #title .container-fluid{    /* this is the way to override a more specific styling */
   padding: 3% 15% 7%;
+  text-align: left;
 }
 /* titlebar image */
 .title-image{
@@ -65,8 +71,6 @@ p{
 
 /* features */
 #features{
-  background-color: #fff;
-  font-family: "Montserrat";
   position: relative;
 
 }
@@ -85,11 +89,6 @@ p{
 }
 
 /* testimonial */
-#testimonials{
-  text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-}
 .testimonial-text{
   font-size: 3rem;
   line-height: 1.5;
@@ -101,7 +100,6 @@ p{
 }
 
 #press{
-  background-color:  #ff4c68;
   padding-bottom: 3%;
 }
 
@@ -129,10 +127,6 @@ p{
 }
 
 /* cta sec */
-#cta{
-  background-color: #ff4c68;
-  color: #fff;
-}
 .cta-heading{
   font-family: "Montserrat";
   font-size: 3.5rem;
@@ -143,8 +137,6 @@ p{
 
 /* footer */
 #footer{
-  background-color: #fff;
-
 }
 .sm-icon{
   color: #000;
