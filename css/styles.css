@@ -1,40 +1,30 @@
 
 body{
   font-family: "Montserrat" arial;
-}
-
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid{
-  padding: 3% 15% 7%;
-}
-
-h1{
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-h2{
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
   text-align: center;
-
 }
-h3{
+
+h1, h2, h3, h4, h5, h6{
   font-family: "Montserrat";
   font-weight: bold;
 }
 
 p{
   color: #8f8f8f;
-  text-align: center;
 }
-/* Navbar  There has to be some issue between this and index*/
+/* headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* container section */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navbar */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -56,6 +46,15 @@ p{
   margin: 5% 3% 5%;
 }
 
+/* tile section */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid{    /* this is the way to override a more specific styling */
+  padding: 3% 15% 7%;
+}
 /* titlebar image */
 .title-image{
   width: 60%;
@@ -68,13 +67,13 @@ p{
 #features{
   background-color: #fff;
   font-family: "Montserrat";
-  padding: 7%;
   position: relative;
 
 }
-
+.feature-title{
+  font-size: 1.5rem;
+}
 .ftrbox{
-  text-align: center;
   padding: 4.5%;
 }
 .fas{
@@ -91,17 +90,18 @@ p{
   background-color: #ff4c68;
   color: #fff;
 }
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .testimonial-image{
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-.carousel-item{
-  padding:7% 15%;
-}
+
 #press{
   background-color:  #ff4c68;
-  text-align:center;
   padding-bottom: 3%;
 }
 
@@ -113,18 +113,25 @@ p{
 #pricing{
   padding: 100px;
 }
-
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-packages{
+  font-size: 1.5rem;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .pricing-col{
   padding: 3% 2%;
-  text-align: center;
 }
 
 /* cta sec */
 #cta{
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 .cta-heading{
   font-family: "Montserrat";
@@ -137,8 +144,7 @@ p{
 /* footer */
 #footer{
   background-color: #fff;
-  padding: 7% 15%;
-  text-align: center;
+
 }
 .sm-icon{
   color: #000;
